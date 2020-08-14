@@ -22,7 +22,8 @@ public class Test {
     private static SolrServer solrServer = new HttpSolrServer(URL);
 
     public static void main(String[] args) throws IOException, SolrServerException {
-        del();
+//        del();
+        add();
 
     }
 
